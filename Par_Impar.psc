@@ -1,11 +1,17 @@
 Algoritmo Par_Impar
+	
     Definir numero Como Entero
     Escribir "Ingresa un número: "
-    Leer numero
+    Leer numeroUsuario
     
-    Si numero MOD 2 = 0 Entonces
+    Si numeroUsuario MOD 2 = 0 Entonces
+		
         Escribir "El número es par."
+		
     Sino
+		
         Escribir "El número es impar."
+		
     FinSi
+	
 FinAlgoritmo
